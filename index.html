@@ -17,6 +17,7 @@
           
         #image {
         width: 100%;
+        height: auto;
         border: 3px solid #000000;
     }
   }
@@ -28,7 +29,7 @@ Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text
 Select a picture: <input type="file" id="user_picture" onchange="update_image()"><p>
 </form>
 <div id="meme_text">Example text here</div>
-<div id="meme_picture"><img src="" height="500" width=100%></div>
+<div id="meme_picture"><img src="" height="500" width="600"></div>
 <script type="text/javascript">
     function update_text(){
         var user_text = document.getElementById("user_text");
